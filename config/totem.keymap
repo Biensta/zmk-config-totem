@@ -26,7 +26,7 @@
     quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <190>;
 };
 
 / {
@@ -46,8 +46,13 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <11 12 13 16 17 18>;
+            key-positions = <16 17 18>;
             timeout-ms = <100>;
+        };
+
+        xxzenter {
+            bindings = <&kp ENTER>;
+            key-positions = <11 13 12>;
         };
     };
 
